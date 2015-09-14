@@ -1,0 +1,32 @@
+{
+  "name": "transmuter",
+  "version": "1.0.0",
+  "description": "Certificate key generation, and tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TylerGarlick@github.com/TylerGarlick/transmuter.git"
+  },
+  "keywords": [
+    "ssl",
+    "certificates",
+    "rsa"
+  ],
+  "author": "Tyler Garlick <tjgarlick@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerGarlick/transmuter/issues"
+  },
+  "homepage": "https://github.com/TylerGarlick/transmuter#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "lazy.js": "^0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
+}
